@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/fondo.jpg);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    margin: 15px;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 23px;
+}
