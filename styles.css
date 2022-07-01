@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    background-image: url(./img/fondo.jpg);
-}
-
 .logo {
     width: 100px;
     height: 100px;
@@ -37,8 +33,63 @@ li{
 margin: 0 20px;
 }
 
-a {
+.nav {
     text-decoration: none;
     color: wheat;
     font-size: 23px;
+}
+
+.season-22 {
+    background-image: url(./img/fondo\ real.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-top: 425px;
+}
+
+.button {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    padding: 5px 5px;
+    text-decoration: none;
+    color: rgb(224, 192, 131);
+    font-size: 30px;
+}
+
+.about-us {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    border-radius: 15px;
+
+}
+
+.tittle {
+    text-decoration: none;
+    color: rgb(224, 192, 131);
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.img-psg {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.img-ars {
+    height: 226px;
+    border-radius: 15px;
 }
